@@ -1,11 +1,9 @@
-/*Make any paragraph immediately following the h2 element red. 
-
-Remove the bullets and add a 1px gray bottom border only for list items that are direct children of ul with a list class.*/
-
-h2+p {
-    color: red;
+.box {
+    border: 5px dotted black;
+    margin-top: 20px;
+    margin-right: 1em;
+    margin-bottom: 40px;
+    margin-left: 2em;
+    padding: 1em;
 }
-ul[class="list"] > li {
-    list-style-type: none;
-    border-bottom: 1px solid gray;
-}
+
