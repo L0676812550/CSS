@@ -2,59 +2,81 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8" />
-    <title>Box Model Task 2: Margin, Border, and Padding</title>
-    <link rel="stylesheet" href="./style.css" />
-
-    <style>
-        body {
-            background-color: #fff;
-            color: #333;
-            font: 1.2em / 1.5 Helvetica Neue, Helvetica, Arial, sans-serif;
-            padding: 1em;
-            margin: 0;
-        }
-
-        .box {}
-    </style>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>UK punk bands</title>
+    <link href='https://fonts.googleapis.com/css?family=Rock+Salt' rel='stylesheet' type='text/css'>
+    <link href="style.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
-
-    <div class="box">I use the standard box model.</div>
-
-</body>
-
-</html>
-
-<style>
-    body {
-        background-color: #fff;
-        color: #333;
-        font: 1.2em / 1.5 Helvetica Neue, Helvetica, Arial, sans-serif;
-        padding: 1em;
-        margin: 0;
-    }
-
-    .box span {
-        background-color: pink;
-        border: 5px solid black;
-        padding: 1em;
-    }
-</style>
-</head>
-
-<body>
-    <div class="box">
-        <p>Veggies es bonus vobis,
-            <span>proinde vos postulo</span>
-            essum magis kohlrabi welsh onion daikon amaranth tatsoi tomatillo melon azuki bean garlic.
-        </p>
-
-        <p>Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette tatsoi pea sprouts fava bean
-            collard greens dandelion okra wakame tomato. Dandelion cucumber earthnut pea peanut soko zucchini.</p>
-    </div>
-
+    <table>
+        <caption>A summary of the UK's most famous punk bands</caption>
+        <thead>
+            <tr>
+                <th scope="col">Band</th>
+                <th scope="col">Year formed</th>
+                <th scope="col">No. of Albums</th>
+                <th scope="col">Most famous song</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">Buzzcocks</th>
+                <td>1976</td>
+                <td>9</td>
+                <td>Ever fallen in love (with someone you shouldn't've)</td>
+            </tr>
+            <tr>
+                <th scope="row">The Clash</th>
+                <td>1976</td>
+                <td>6</td>
+                <td>London Calling</td>
+            </tr>
+            <tr>
+                <th scope="row">The Damned</th>
+                <td>1976</td>
+                <td>10</td>
+                <td>Smash it up</td>
+            </tr>
+            <tr>
+                <th scope="row">Sex Pistols</th>
+                <td>1975</td>
+                <td>1</td>
+                <td>Anarchy in the UK</td>
+            </tr>
+            <tr>
+                <th scope="row">Sham 69</th>
+                <td>1976</td>
+                <td>13</td>
+                <td>If The Kids Are United</td>
+            </tr>
+            <tr>
+                <th scope="row">Siouxsie and the Banshees</th>
+                <td>1976</td>
+                <td>11</td>
+                <td>Hong Kong Garden</td>
+            </tr>
+            <tr>
+                <th scope="row">Stiff Little Fingers</th>
+                <td>1977</td>
+                <td>10</td>
+                <td>Suspect Device</td>
+            </tr>
+            <tr>
+                <th scope="row">The Stranglers</th>
+                <td>1974</td>
+                <td>17</td>
+                <td>No More Heroes</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row" colspan="2">Total albums</th>
+                <td colspan="2">77</td>
+            </tr>
+        </tfoot>
+    </table>
 </body>
 
 </html>
